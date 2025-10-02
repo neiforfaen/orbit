@@ -18,7 +18,8 @@
 		"start": "waku start",
 		"format": "biome check --write .",
 		"lint": "biome check",
-		"prepare": "husky"
+		"prepare": "husky",
+		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
 		"fumadocs-core": "15.8.2",
