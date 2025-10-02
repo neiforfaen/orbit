@@ -6,7 +6,7 @@ A personal constellation of curated recipes. Orbit is a clean, fast, and modern 
 
 This project was born from a desire to have a single, beautifully organized place to store recipes I find and love. Instead of cluttered bookmarks or lost notes, Orbit serves as a central hub — a personal cookbook that I can access anywhere and update easily.
 
-It uses a documentation-first framework (Fumadocs) to keep the focus on the content, ensuring that recipes are easy to read, follow, and find.
+It uses a documentation-first framework to keep the focus on the content, ensuring that recipes are easy to read, follow, and find.
 
 ## Key Features
 
@@ -25,7 +25,7 @@ It uses a documentation-first framework (Fumadocs) to keep the focus on the cont
 
 ## Getting Started
 
-To get a local copy up and running, follow these simple steps.
+To get a local version running, follow these simple steps.
 
 ### Prerequisites
 
@@ -36,7 +36,7 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/neiforfaen/orbit.git](https://github.com/neiforfaen/orbit.git)
+    git clone https://github.com/neiforfaen/orbit.git
     ```
 2.  **Navigate to the project directory:**
     ```sh
@@ -55,7 +55,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Contributions
 
-Contributions are what make this project grow! If you'd like to add a new recipe, please follow the steps outlined in our contribution guide.
+Contributions are what make this project grow! If you'd like to add a new recipe, please follow the steps outlined in the contribution guide.
 
 ➡️ **[Read the Contribution Guide](./content/docs/contributions.mdx)**
 
