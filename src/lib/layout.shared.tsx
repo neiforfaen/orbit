@@ -1,3 +1,4 @@
+import { GithubInfo } from "fumadocs-ui/components/github-info"
 import type { BaseLayoutProps } from "fumadocs-ui/layouts/shared"
 import { Issue } from "@/components/issue-icon"
 
@@ -12,6 +13,12 @@ export function baseOptions(): BaseLayoutProps {
 			mode: "light-dark-system",
 		},
 		links: [
+			{
+				type: "custom",
+				children: (
+					<GithubInfo owner="neiforfaen" repo="orbit" className="mx-[1px]" />
+				),
+			},
 			{
 				text: "Report an issue",
 				label: "Report an issue on GitHub",
