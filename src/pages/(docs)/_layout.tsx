@@ -5,7 +5,11 @@ import { source } from "@/lib/source"
 
 export default function Layout({ children }: { children: ReactNode }) {
 	return (
-		<DocsLayout {...baseOptions()} tree={source.pageTree}>
+		<DocsLayout
+			{...baseOptions()}
+			sidebar={{ prefetch: false }}
+			tree={source.pageTree}
+		>
 			{children}
 		</DocsLayout>
 	)
