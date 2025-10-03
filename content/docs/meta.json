@@ -1,3 +1,11 @@
 {
-	"pages": ["---Introduction---", "index", "contributions"]
+	"pages": [
+		"---Introduction---",
+		"index",
+		"contributions",
+		"---Breakfast---",
+		"gypb",
+		"proat",
+		"vseot"
+	]
 }
