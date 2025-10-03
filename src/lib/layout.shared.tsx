@@ -16,7 +16,12 @@ export function baseOptions(): BaseLayoutProps {
 			{
 				type: "custom",
 				children: (
-					<GithubInfo owner="neiforfaen" repo="orbit" className="mx-[1px]" />
+					<GithubInfo
+						owner="neiforfaen"
+						repo="orbit"
+						className="mx-[1px]"
+						token={process.env.GITHUB_TOKEN}
+					/>
 				),
 			},
 			{
