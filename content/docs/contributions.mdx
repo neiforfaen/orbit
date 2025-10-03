@@ -1,0 +1,46 @@
+---
+title: Contributions
+description: A guide on how to contribute to the project
+---
+
+import { Callout } from 'fumadocs-ui/components/callout';
+
+Want to add your own favourite recipe? Awesome! This guide outlines the simple process for contributing to the recipe collection.
+
+<Callout title="Maintaining Consistency" type="warn">
+  Following these steps ensures that any new recipes added are consistent with the current structure and can be merged smoothly.
+</Callout>
+
+### Create Your MDX File
+
+First, create a new file inside the `content/docs` directory. The easiest way to start is to copy and paste an existing recipe file (like `proat.mdx`) and use it as a template.
+
+### File Naming
+
+Name your new file using the first letter of each word in the recipe's title. The format should be all lowercase.
+
+<Callout title="File Naming Convention" type="info">
+  **Example:** A recipe titled `Veggie Scrambled Eggs on Toast` would be named `vseot.mdx`. If the name is shorter like `Protein Oatmeal`, something like `proat.mdx` would be fine.
+</Callout>
+
+### Update `content/docs/meta.json`
+
+You must register your new page. Open the `meta.json` file add your new file's name (without the `.mdx` extension) to the `"pages"` array. This makes it appear in the sidebar navigation.
+
+```json title="/content/docs/meta.json"
+{
+  "pages": [
+    "---Recipes---"
+    "gypb",
+    "proat",
+    "vseot",
+    "your-new-filename-here"
+  ]
+}
+```
+
+### Open a Pull Request
+
+Once you have created your file, filled out the template, and updated the `meta.json` file, commit your changes and open a Pull Request on GitHub.
+
+Your submission will be reviewed, and once approved, your recipe will be live on the site!
